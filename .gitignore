@@ -1,0 +1,34 @@
+# --- IDE и редакторы ---
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# --- Тестирование и отчеты ---
+.pytest_cache/
+allure-results/
+*.log
+htmlcov/
+.tox/
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
+
+# --- Временные файлы ---
+*.tmp
+*.temp
+input.txt
+output.txt
+result.txt
